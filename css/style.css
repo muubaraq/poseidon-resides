@@ -19,6 +19,12 @@
 
 /* nav bar ends here */
 
+
+.header-section {
+  background: #F5F4F480;
+
+}
+
 .product-category a, .card-title-link{
   color: rgb(254,105,7) !important;
 }
@@ -45,4 +51,9 @@
 
 .footer-section ul li a {
   color: rgb(254,105,7) !important;
+}
+
+.footer-container {
+  background-color: #F5F4F480;
+
 }
