@@ -58,6 +58,12 @@
   right: 9%;
 }
 
+
+ .guarantee-container {
+   background-color: rgb(254,105,7);
+ }
+
+
 .product-category a, .card-title-link{
   color: rgb(254,105,7) !important;
 }
