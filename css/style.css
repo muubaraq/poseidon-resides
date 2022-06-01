@@ -1,3 +1,14 @@
+
+.nav-link:hover, .nav-link:focus {
+  border-bottom: 2px solid rgb(254,105,7);
+  color: rgb(254,105,7) !important;
+}
+
 .orange {
-  background-color: orange !important;
+  background-color:  rgb(254,105,7) !important;
+}
+
+
+.footer-section ul li a {
+  color: rgb(254,105,7) !important;
 }
