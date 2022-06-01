@@ -1,4 +1,5 @@
 
+/* nav bar styling */
 .nav-link:hover, .nav-link:focus {
   border-bottom: 2px solid rgb(254,105,7);
   color: rgb(254,105,7) !important;
@@ -15,6 +16,8 @@
 .orange {
   background-color:  rgb(254,105,7) !important;
 }
+
+/* nav bar ends here */
 
 .product-category a, .card-title-link{
   color: rgb(254,105,7) !important;
