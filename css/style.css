@@ -9,6 +9,27 @@ html {
   overflow-x: hidden;
 }
 
+/* nav bar styling */
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom: 2px solid rgb(254, 105, 7);
+  color: rgb(254, 105, 7) !important;
+}
+
+.navbar-toggler {
+  background: rgb(254, 105, 7);
+  color: aliceblue;
+}
+.navbar-toggler-icon {
+  color: aliceblue;
+}
+
+.orange {
+  background-color: rgb(254, 105, 7) !important;
+}
+
+/* nav bar styling ends */
+
 .cart {
   z-index: 2;
 }
