@@ -33,3 +33,25 @@ html {
 .cart {
   z-index: 2;
 }
+
+/*footer styling */
+.footer-section ul li a {
+  color: rgb(254, 105, 7) !important;
+}
+
+.footer-container {
+  background-color: #f5f4f480;
+}
+
+/* tablet query */
+
+@media screen and (max-width: 770px) and (min-width: 576px) {
+  .img-div-1 {
+    margin-left: -1em;
+  }
+
+  .img-div-2 {
+    top: 45%;
+    left: 55%;
+  }
+}
