@@ -4,12 +4,39 @@
   color: rgb(254,105,7) !important;
 }
 
+.navbar-toggler {
+  background: rgb(254,105,7);
+  color: aliceblue;
+}
+.navbar-toggler-icon {
+  color: aliceblue;
+}
+
 .orange {
   background-color:  rgb(254,105,7) !important;
 }
 
 .product-category a, .card-title-link{
   color: rgb(254,105,7) !important;
+}
+
+.form-control {
+  color: rgb(254,105,7) !important;
+  background-color: rgb(254,105,7);
+}
+
+::placeholder { 
+  color: white !important;
+  opacity: 1; 
+}
+
+.input-group {
+  border-radius: 9em !important;
+}
+
+.input-group-text {
+  background-color: rgba(252, 101, 0, 0.473);
+  
 }
 
 
