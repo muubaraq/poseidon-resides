@@ -33,7 +33,15 @@ html {
 .cart {
   z-index: 2;
 }
-
+.control {
+  background-color: rgb(254, 105, 7) !important;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.5rem;
+  position: absolute;
+  top: 20rem;
+}
 /*footer styling */
 .footer-section ul li a {
   color: rgb(254, 105, 7) !important;
@@ -46,6 +54,4 @@ html {
 /* tablet query */
 
 @media screen and (max-width: 770px) and (min-width: 576px) {
- 
-  }
 }
