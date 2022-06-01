@@ -8,6 +8,10 @@
   background-color:  rgb(254,105,7) !important;
 }
 
+.product-category a, .card-title-link{
+  color: rgb(254,105,7) !important;
+}
+
 
 .footer-section ul li a {
   color: rgb(254,105,7) !important;
