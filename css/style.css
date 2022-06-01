@@ -21,8 +21,41 @@
 
 
 .header-section {
-  background: #F5F4F480;
+  background:#F5F4F480;
+  ;
 
+}
+
+.shop-all {
+
+  background-color: rgb(254,105,7);
+}
+
+.look-book {
+  background-color: transparent;
+  border: 1px solid rgb(254,105,7);
+  color: rgb(254,105,7);
+}
+
+.img-div-1 {
+  margin-top : 10em;
+  margin-left: 3em;
+}
+
+.img-div-2 {
+   top: 32%;
+   left: 39%;
+}
+
+.grey-box {
+  background: #E4E2E1;
+  margin-top: 5em;
+
+}
+
+.img-div-3 {
+  top: 0%;
+  right: 9%;
 }
 
 .product-category a, .card-title-link{
@@ -57,3 +90,19 @@
   background-color: #F5F4F480;
 
 }
+
+/* tablet query */
+
+@media screen and (max-width: 770px) and (min-width: 576px) {
+  .img-div-1 {
+    
+    margin-left: -1em;
+  }
+
+  .img-div-2 {
+    top: 45%;
+    left: 55%;
+  }
+  
+}
+  
