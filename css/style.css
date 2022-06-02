@@ -31,7 +31,9 @@ html {
 /* nav bar styling ends */
 
 .cart {
-  z-index: 2;
+  z-index: 3;
+  height: 100%;
+  width: 35%;
 }
 
 .control {
@@ -43,7 +45,12 @@ html {
   position: absolute;
   top: 20rem;
   padding: 0.5rem;
-  z-index: 2;
+  z-index: 4;
+}
+
+.cart__img {
+  background-color: #e4e2e1;
+  transform: translateY(55px) translateX(50px);
 }
 /*footer styling */
 .footer-section ul li a {
@@ -56,5 +63,12 @@ html {
 
 /* tablet query */
 
-@media screen and (max-width: 770px) and (min-width: 576px) {
+@media screen and (max-width: 767px) {
+  .cart__img {
+    transform: translateY(0) translateX(0);
+  }
+
+  .cart {
+    width: 100%;
+  }
 }
