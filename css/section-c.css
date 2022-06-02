@@ -52,6 +52,15 @@ html {
   background-color: #e4e2e1;
   transform: translateY(55px) translateX(50px);
 }
+
+h4 {
+  color: rgb(254, 105, 7) !important;
+}
+
+.orange-cart {
+  background-color: rgb(254, 105, 7) !important;
+}
+
 /*footer styling */
 .footer-section ul li a {
   color: rgb(254, 105, 7) !important;
