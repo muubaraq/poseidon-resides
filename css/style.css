@@ -33,6 +33,7 @@ html {
 .cart {
   z-index: 2;
 }
+
 .control {
   background-color: rgb(254, 105, 7) !important;
   border-radius: 50%;
@@ -42,6 +43,7 @@ html {
   position: absolute;
   top: 20rem;
   padding: 0.5rem;
+  z-index: 2;
 }
 /*footer styling */
 .footer-section ul li a {
