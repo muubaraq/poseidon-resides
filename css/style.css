@@ -100,14 +100,12 @@
 /* tablet query */
 
 @media screen and (max-width: 770px) and (min-width: 576px) {
-  .img-div-1 {
-    
-    margin-left: -1em;
-  }
-
-  .img-div-2 {
-    top: 45%;
-    left: 55%;
+  .header-section {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header-image-2.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white !important;
   }
   
 }
