@@ -1,0 +1,122 @@
+body {
+  min-height: 100vh;
+}
+
+/* nav bar styling */
+.nav-link:hover, .nav-link:focus {
+    border-bottom: 2px solid rgb(254,105,7);
+    color: rgb(254,105,7) !important;
+  }
+  
+  .navbar-toggler {
+    background: rgb(254,105,7);
+    color: aliceblue;
+  }
+  .navbar-toggler-icon {
+    color: aliceblue;
+  }
+  
+  .orange {
+    background-color:  rgb(254,105,7) !important;
+  }
+  
+  /* nav bar ends here */
+
+h2 .accordion-button {
+  color: rgb(254,105,7) !important;
+  font-weight: bold;
+  background: #FCFCFC;
+
+}
+
+.faq-image-col {
+  margin-top : 8em;
+}
+
+.img-background {
+  background-color: pink;
+  top: 29%;
+  right: 28%;
+  z-index: -5;
+}
+
+.orange-1  {
+  color: #FF9900;
+  top: 40%;
+  left: -5%;
+  font-size: 3em;
+
+}
+
+.khaki {
+  color: rgb(56, 51, 9);
+  left: 57%;
+  top: 10%;
+  font-size: 5em;
+  z-index: -5;
+}
+
+.purple {
+  color: #9D29AE;
+  top: 70%;
+  left: -5%;
+  font-size: 3.5em;
+
+}
+
+.navy-blue {
+  color: #003366;
+  top: 60%;
+  right: 4%;
+  font-size: 3em;
+}
+
+.footer-section ul li a {
+  color: rgb(254,105,7) !important;
+}
+
+.footer-container {
+  background-color: #F5F4F480;
+
+}
+
+/* Tablet view */
+
+@media screen and (max-width: 769px) and (min-width: 550px) {
+
+  .img-background {
+    right: 23%;
+  }
+  .khaki {
+    left: 59%;
+  }
+  .navy-blue {
+    right: -1%;
+    font-size: 2.5em;
+  }
+
+  .purple {
+    font-size: 3em;
+  }
+}
+
+/* mobile view */
+@media  screen and (max-width: 549px) {
+  .img-background {
+    right: 25%;
+  }
+  
+  .navy-blue {
+    right: 1%;
+    font-size: 2.5em;
+  }
+
+  .purple {
+    left: 1%;
+  }
+
+  .orange-1  {
+    left: 1%;
+  
+  }
+}
