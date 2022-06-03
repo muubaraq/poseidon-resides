@@ -1,0 +1,109 @@
+/* nav bar styling */
+.nav-link:hover, .nav-link:focus {
+    border-bottom: 2px solid rgb(254,105,7);
+    color: rgb(254,105,7) !important;
+  }
+  
+  .navbar-toggler {
+    background: rgb(254,105,7);
+    color: aliceblue;
+  }
+  .navbar-toggler-icon {
+    color: aliceblue;
+  }
+  
+  .orange {
+    background-color:  rgb(254,105,7) !important;
+  }
+  
+  /* nav bar ends here */
+
+  #contact-section .main-body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vh;
+    width: 90%;
+    padding: 0 100px;
+  }
+
+  #contact-section .head {
+      padding-top: 100px;
+  }
+
+  #contact-section .card1{
+      margin-top: -90px;
+  }
+  
+  #contact-section .card2{
+      margin-top: -60px;
+  }
+
+  #contact-section .btn-color {
+    background-color: rgb(254,105,7) !important;
+    color: #fff;
+  }
+  
+  /* Footer */
+  .footer-section ul li a {
+    color: rgb(254,105,7) !important;
+  }
+  
+  .footer-container {
+    background-color: #F5F4F480;
+  
+  }
+
+  /* Mobile View */
+  @media screen and (max-width: 426px) {
+      #contact-section .white-box {
+          width: 90% !important;
+      }
+
+      #contact-section .main-body {
+        width: 90% !important;
+        padding: 0 50px;
+    }
+
+      #contact-section .head {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;   
+        padding-top: 70px !important;
+    }
+
+    .main-body p {
+        font-size: 13px !important;
+    }
+
+    
+    .card1 {
+        margin-top: -40px !important;
+    }
+
+    .card2 {
+        margin: 20px auto !important;
+    }
+
+  }
+
+  /* Tablet View */
+  @media screen and (min-width: 427px) and (max-width: 769px) {
+      .main-body {
+          width: 90% !important;
+          padding: 0 50px !important;
+        }
+
+      .main-body .head {
+          font-size: 23px !important;
+          padding-bottom: 10px;
+      }
+
+      .main-body p {
+          font-size: 18px !important;
+      }
+
+      .card2 {
+          margin: 20px auto !important;
+      }
+
+  }
