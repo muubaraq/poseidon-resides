@@ -39,12 +39,12 @@
  
  .img-div-1 {
    margin-top : 15em;
-   margin-left: 3.5em;
+   margin-left: 6em;
  }
  
  .img-div-2 {
-    top: 38%;
-    left: 39%;
+    top: 35.5%;
+    left: 40%;
  }
  
  .grey-box {
@@ -60,7 +60,7 @@
  }
 
  .img-div-vector {
-   top: 19%;
+   top: 20%;
    left:51.6%;
   }
 
@@ -122,4 +122,30 @@
    }
    
  }
-   
+
+ /* Laptop view */
+ @media screen and (max-width: 1026px) and (min-width: 1000px) {
+
+  .img-div-1 {
+    margin-top : 15em;
+    margin-left: 2em;
+  }
+  
+  .img-div-2 {
+     top: 39%;
+     left: 39%;
+  }
+  
+  
+  .img-div-3 {
+    top: 0%;
+    right: 6%;
+  }
+ 
+  .img-div-vector {
+    top: 19%;
+    left:53%;
+   }
+ 
+
+ }
