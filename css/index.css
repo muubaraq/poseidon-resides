@@ -38,25 +38,38 @@
  }
  
  .img-div-1 {
-   margin-top : 10em;
-   margin-left: 3em;
+   margin-top : 15em;
+   margin-left: 3.5em;
  }
  
  .img-div-2 {
-    top: 32%;
+    top: 38%;
     left: 39%;
  }
  
  .grey-box {
    background: #E4E2E1;
    margin-top: 5em;
+   z-index: -5;
  
  }
  
  .img-div-3 {
    top: 0%;
-   right: 9%;
+   right: 6%;
  }
+
+ .img-div-vector {
+   top: 19%;
+   left:51.6%;
+  }
+
+  .img-div-vector-1 {
+    top: 48%;
+    left:27%;
+    width: 25%;
+    z-index: -5;
+   }
  
  
   .guarantee-container {
