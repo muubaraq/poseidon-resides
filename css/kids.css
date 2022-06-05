@@ -1,0 +1,80 @@
+.nav-link:hover, .nav-link:focus {
+    border-bottom: 2px solid rgb(254,105,7);
+    color: rgb(254,105,7) !important;
+  }
+  
+  .navbar-toggler {
+    background: rgb(254,105,7);
+    color: aliceblue;
+  }
+  .navbar-toggler-icon {
+    color: aliceblue;
+  }
+  
+  .orange {
+    background-color:  rgb(254,105,7) !important;
+  }
+
+  .text-primary{
+    color: #E95D02 !important;
+  }
+
+  .card{
+    border-radius:13px;
+    padding: 10px;
+  }
+  
+  .middle-dress{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    height: 40vh;
+  }
+
+  .main-dress{
+    padding-right: 55px;
+  }
+ 
+  .description{
+    border-bottom: 1px solid black;
+    width: 65%;
+  }
+
+  .btn-1{
+    background: #E95D02 !important;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 10px;
+  }
+
+
+  /* FOOTER */
+
+  .footer-section ul li a {
+    color: rgb(254,105,7) !important;
+  }
+  
+  .footer-container {
+    background-color: #F5F4F480;
+  
+  }
+
+  /* Mobile Screen */
+
+  @media only screen and (max-width: 575px) {
+    .main-cards{
+      order: 2;
+      margin-left: 120px;
+      width: 50%;
+      margin-top: 50px;
+    }
+    .big-dress{
+      order: 1;
+    }
+
+    .text-section{
+      order: 3;
+    }
+  
+  }
+  
